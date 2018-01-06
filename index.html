@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Morrowind Character Generator</title>
+        <script type="text/javascript" src="js/math.js"></script>
+        <script type="text/javascript" src="js/generator.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href=https://avatars3.githubusercontent.com/u/32146222?s=400&u=41bba0e1e79a28b424654a495172523177e0378a&v=4">
+    </head>
+    
+    <body onLoad="charGen()">
+        <div id="mainDiv">
+            <h1 id="mainHeading">MORROWIND CHARACTER GENERATOR</h1>
+            <div id="content">
+                <p class="fieldTitle">Name: </p>
+                <a id="nameGenLink" target="_blank" href="https://insane0hflex.github.io/TesNameGenerator/">Link to Generate A Name</a>
+                <p class="fieldTitle">Faction 1: </p>
+                <p class="field" id="factionField1"></p>
+                <p class="fieldTitle">Faction 2: </p>
+                <p class="field" id="factionField2"></p>
+                <p class="fieldTitle">Class: </p>
+                <p class="field" id="classField"></p>
+                <p class="fieldTitle">Hometown: </p>
+                <p class="field" id="hometownField"></p>
+                <p class="fieldTitle">Birthsign: </p>
+                <p class="field" id="birthsignField"></p>
+                <p class="fieldTitle">Race: </p>
+                <p class="field" id="raceField"></p>
+                <button id= "genButton" type="button" onClick="charGen()">Generate New Character</button>
+            </div>
+            <hr>
+            <p>Inspired by u/ihategoose's <a id="creditLink" target="_blank" href="https://www.reddit.com/r/Morrowind/comments/7l93rm/indecisive_fucks_character_roller_updated/">Morrowind Random Character Roller</a></p>
+        </div>
+    </body>
+</html>
